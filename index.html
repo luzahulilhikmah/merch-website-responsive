@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trsr Merch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Caveat&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">TRSR Merch</h2>
+          <p class="sub-heading">Hoodie & T-Shirt</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 1000K</h4>
+          <p class="item">Hoodie</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 400K</h4>
+          <p class="item">T-Shirt</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>TRSR Merch</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <section class="services">
+        <div class="service">
+          <div class="icon">
+            <img src="img/music.png" alt="" />
+          </div>
+          <h3>Music</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perferendis. Debitis ipsam error aliquam sint.</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="img/tv-show.png" alt="" />
+          </div>
+          <h3>Variety Show</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perferendis. Debitis ipsam error aliquam sint.</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="img/concert.png" alt="" />
+          </div>
+          <h3>Concert</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perferendis. Debitis ipsam error aliquam sint.</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="img/merchandising.png" alt="" />
+          </div>
+          <h3>Merch</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perferendis. Debitis ipsam error aliquam sint.</p>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/gallery/1.jpeg" alt="" />
+        <img src="img/gallery/2.jpeg" alt="" />
+        <img src="img/gallery/3.jpeg" alt="" />
+        <img src="img/gallery/4.jpeg" alt="" />
+        <img src="img/gallery/5.jpeg" alt="" />
+        <img src="img/gallery/6.jpeg" alt="" />
+        <img src="img/gallery/7.jpeg" alt="" />
+        <img src="img/gallery/8.jpeg" alt="" />
+        <img src="img/gallery/9.jpeg" alt="" />
+        <img src="img/gallery/10.jpeg" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
